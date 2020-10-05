@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <body></body>
+        <script>
+            function my_function() {
+                return "My name is Brielle";
+            }
+
+            myFunction= () => "My name is Brielle Linna";
+
+            <p id="test"></p>
+            var numbers= [55, 24, 18, 21];
+            var someOver19= numbers.some(myFunction);
+
+            document.getElementById("demo").innerHTML= "Person is 19" + someOver19;
+
+            function myFunction(value, index, array) {
+                return value >19;
+            }
+        </script>  
+    </body>
+</html>
