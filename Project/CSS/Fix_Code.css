@@ -1,0 +1,30 @@
+/*================================
+    HTML STYLESHEET 
+==================================
+    Author: Brielle Linna
+    Project: Fix_Code
+==================================*/
+
+body {
+    background-color: #add8e6;
+    Font: #00008b;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font: #00008b;
+    background-color: #add8e6;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font: #00008b;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    border: 2px dashed red;
+}
