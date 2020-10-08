@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            //creates a text string
+            var Movie= "<movie>" +
+                "<title>Hunger Games</title>'"+
+                "<director>Gary Ross</director>" +
+                "<starring>Jennifer Laurence</starring>" +
+                "<year>2012</year>" +
+                "</movie>";
+
+                //creates an XML DOM parser
+                XML_Parser = new DOMParser();
+
+                //creates a new XML DOM object using the text string
+                XML_Document.getElementsByTagName("title") [0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
